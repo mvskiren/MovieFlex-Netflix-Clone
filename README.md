@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Netflix Clone - MovieFlex 
+<img src='https://github.com/mvskiren/MovieFlex-Netflix-Clone/blob/master/Screenshot%202020-06-28%20at%208.58.26%20PM.png' />
 
 ## Available Scripts
 
