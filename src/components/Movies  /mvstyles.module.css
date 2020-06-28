@@ -1,0 +1,23 @@
+.movies{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 30px 15px 2px 15px;
+   /* cgnaged margin : 30px to  */
+   justify-content: center;
+   /* flex: 10 0 auto;
+   flex-flow:row; */
+   /* flex-direction: ro;
+   overflow-x: auto; */
+
+}
+.loader{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+

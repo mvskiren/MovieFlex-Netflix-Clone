@@ -1,0 +1,92 @@
+.img{
+    width: 100%;
+	height: 73vh;	
+	object-fit: cover;
+}
+.showcase {
+	width: 100%;
+	height: 73vh;
+	/* chnaged from position: realtive to absolute */
+	position: relative;
+	/* position: absolute; */
+}
+
+
+
+
+.showcase::after {
+   
+	text-align: center;
+	font-style: italic;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: 500;
+	font-size: 3.2rem;
+	line-height: 1.1;
+	margin: 0 0 2rem;
+	color:white;   /* extra content upto here */
+	content:"Tokyo Drift";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.3);
+	box-shadow: inset 160px 100px 200px  #000000, inset -120px -100px 250px #000000;
+}
+
+
+.showcasecontent {
+	position: relative;
+	z-index: 2;
+	width: 65%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 9rem;
+}
+
+.showcasecontent h1 {
+	color: white;
+	font-weight: 500;
+	font-size: 3.2rem;
+	font-weight: 700;
+	font-size: 5.2rem;
+	line-height: 1.1;
+	margin: 0 0 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.showcase {
+		width: 100%;
+		height: 60%;
+	}
+	.img{
+		width: 100%;
+		height: 60%;
+	}
+    .showcase::after {
+		font-weight: 500;
+		font-size: 1.8rem;
+		box-shadow: inset 10px 10px 20px  #000000, inset -120px -100px 250px #000000;
+	}
+
+  }
+  @media only screen and (max-width: 380px) {
+	.showcase {
+		width: 100%;
+		height: 60%;
+	}
+	.img{
+		width: 100%;
+		height: 60%;
+	}
+	.showcase::after {
+		font-weight: 500;
+		font-size: 1.8rem;
+		box-shadow: inset 10px 10px 20px  #000000, inset -120px -50px 250px #000000;
+	}
+  }

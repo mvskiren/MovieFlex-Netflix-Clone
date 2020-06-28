@@ -1,0 +1,50 @@
+.movie{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 14%;
+    margin: 1%;
+
+}
+h2{
+    color: white;
+    font-size: 10px;
+    display:inline-block;
+
+}
+h3{
+    
+    color: white;
+    font-size: 7px;
+}
+.img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(110, 78, 78, 0.25);
+    transition: all 0.2s ease-in;
+}
+.img:hover{
+    filter: contrast(1.1);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in;
+    margin: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .movie{
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 22%;
+        margin: 1%;
+    
+    }
+  }
+  @media only screen and (max-width: 380px) {
+    .movie{
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 30%;
+        margin: 1%;
+    
+    }
+  }

@@ -1,0 +1,43 @@
+header
+{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+}
+
+.logocontainer, .navlinks, .cart{
+    display: flex;
+}
+
+.logocontainer{
+    flex: 1;
+    
+
+}
+.logo{
+    margin : 7px;
+    font-size: 400;
+    
+
+}
+nav{
+flex :2;
+}
+.navinks{
+    justify-content: space-around;
+    list-style: none;
+
+}
+.navlink{
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cart{
+    flex :1;
+    justify-content: flex-end;
+  
+}
